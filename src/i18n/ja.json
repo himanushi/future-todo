@@ -1,0 +1,60 @@
+{
+	"settings": {
+		"title": "設定",
+		"openai_settings": "OpenAI 設定",
+		"theme_settings": "テーマ設定"
+	},
+	"message_templates": {
+		"no_templates": "なし",
+		"reset_button_description": "[テンプレートリセット]<br>テンプレートを使用しません。",
+		"add_button_description": "[テンプレート作成]<br>テンプレートを作成します。<br>テンプレートを選択している場合は自動でテキストの先頭に追加されます。会話モードが ON の場合は、初めのメッセージのみ、 OFF の場合は毎回追加されます。",
+		"edit_button_description": "[テンプレート編集]<br>現在選択しているテンプレートを編集します。",
+		"delete_button_description": "[テンプレート削除]<br>現在選択しているテンプレートを削除します。",
+		"add_title": "作成",
+		"edit_title": "更新",
+		"modal_title": "タイトル",
+		"modal_message": "テンプレート"
+	},
+	"openai_api_settings": {
+		"title": "OpenAI 設定",
+		"api_key": "API Key",
+		"api_key_link": "API Key の取得はこちらから",
+		"api_key_description": "API Key はローカルに保存されています。これは静的なアプリで、サーバーでは保持していません。ブラウザのローカルストレージに保存されています。予め使用料の上限を設定しておくことを推奨します。",
+		"new_chat_description": "API Key を入力したら、早速新しいチャットを始めよう!",
+		"redo": "デフォルト値に戻す",
+		"max_tokens_description": "出力されるトークンの最大数。トークン数は、使用料金に影響します。出力されるトークン数が多いほど、使用料が高くなります。",
+		"temperature_description": "0 から 2 までのどの Temperature sampling を使用するか。高い値は出力をよりランダムに、0.2 などの低い値はより焦点を絞った決定論的にする傾向があります。これを変更することをお勧めします。Top_P の両方を変更しないでください。",
+		"top_p_description": "1以下で入力。Temperature sampling によるサンプリングの代わりに、 nucleus サンプリングと呼ばれる方法があります。この方法では、モデルは Top_P 確率質量のトークンの結果を考慮します。つまり、0.1とすると、確率質量の上位10%を占めるトークンのみが考慮されます。 Temperature sampling または Top-p (nucleus) sampling のいずれかを変更することをお勧めしますが、両方を変更することは避けることをお勧めします。"
+	},
+	"usage": {
+		"title": "使用料",
+		"this_month_usage": "{month}の使用料",
+		"currency_exchange_rate": "為替レート",
+		"currency_unit": "通貨単位"
+	},
+	"code_theme": {
+		"title": "コードテーマ"
+	},
+	"menu": {
+		"title": "メニュー",
+		"new_chat": "新しいチャット",
+		"settings": "設定",
+		"my_account": "マイアカウント",
+		"searchbar": "検索"
+	},
+	"chat": {
+		"usage_tokens": "{tokens}トークン, {currency}",
+		"input_placeholder": "メッセージを入力してください",
+		"please_set_api_key": "API Key を設定してください",
+		"new_chat_button_tooltip": "[新しいチャット開始]<br>新しいチャットを開始します。<br>同じチャット内でメッセージの<br>やりとりが多いと使用料金が高くなります。",
+		"markdown_button_tooltip": "[マークダウンモード]<br>マークダウン表示の有効無効を変更します。",
+		"robot_button_tooltip": "[OpenAI 設定変更]<br>各種パラメータの変更ができます。",
+		"conversation_mode_button_tooltip": "[対話モード]<br>対話モードが有効だと文脈を理解して返答します。<br>無効だと文脈を理解しない代わりに<br>使用料金を大幅に減らすことができます。",
+		"conversation_voice_mode_button_tooltip": "[音声対話モード]<br>音声で対話します。<br>解除する場合は再度、音声対話モードボタンを押してください。<br>対話言語を変更したい場合は、画面右上の言語設定を変更してください",
+		"voice_recording": "録音中..."
+	},
+	"months": {
+		"long": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+		"short": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
+	}
+}

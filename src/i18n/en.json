@@ -1,0 +1,73 @@
+{
+	"settings": {
+		"title": "Settings",
+		"openai_settings": "OpenAI settings",
+		"theme_settings": "Theme settings"
+	},
+	"message_templates": {
+		"no_templates": "None",
+		"reset_button_description": "[Reset templates]<br>Do not use templates.",
+		"add_button_description": "[Create template]<br>Create a new template.If a template is already selected, it will be automatically added to the beginning of the text. If conversation mode is ON, it will only be added to the first message, but if OFF, it will be added every time.",
+		"edit_button_description": "[Edit template]<br>Edit the currently selected template.",
+		"delete_button_description": "[Delete template]<br>Delete the currently selected template.",
+		"add_title": "Create",
+		"edit_title": "Update",
+		"modal_title": "Title",
+		"modal_message": "Template"
+	},
+	"openai_api_settings": {
+		"title": "OpenAI settings",
+		"api_key": "API Key",
+		"api_key_link": "Please click here to obtain your API Key.",
+		"api_key_description": "The API Key is saved locally and not maintained on the server as this is a static application. It is saved in the browser's local storage. It is recommended to set a usage limit beforehand.",
+		"new_chat_description": "Once you enter the API key, let's start a new chat right away!",
+		"redo": "Reset to default values",
+		"max_tokens_description": "The maximum number of tokens that can be outputted. The number of tokens affects the usage fee. The more tokens that are outputted, the higher the usage fee will be.",
+		"temperature_description": "What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. We generally recommend altering this or top_p but not both.",
+		"top_p_description": "An alternative to sampling with temperature, called nucleus sampling, where the model considers the results of the tokens with top_p probability mass. So 0.1 means only the tokens comprising the top 10% probability mass are considered. We generally recommend altering this or temperature but not both."
+	},
+	"usage": {
+		"title": "Usage",
+		"this_month_usage": "Usage fees for {month}.",
+		"currency_exchange_rate": "Currency exchange rate",
+		"currency_unit": "Currency unit"
+	},
+	"code_theme": {
+		"title": "Code Theme"
+	},
+	"menu": {
+		"title": "Menu",
+		"new_chat": "New Chat",
+		"settings": "Settings",
+		"my_account": "My Account",
+		"searchbar": "Search"
+	},
+	"chat": {
+		"usage_tokens": "{tokens, plural, =0 {No tokens} one {1 token} other {{tokens} tokens}}, {currency}",
+		"input_placeholder": "Type your message here...",
+		"please_set_api_key": "Please set a API Key",
+		"new_chat_button_tooltip": "[Start New Chat]<br>Start a new chat.<br>Be aware that chatting extensively <br>in the same chat could increase usage fees.",
+		"markdown_button_tooltip": "[Markdown Mode]<br>Toggle markdown display on and off.",
+		"robot_button_tooltip": "[OpenAI Configuration Change]<br>You can change various parameters.",
+		"conversation_mode_button_tooltip": "[Conversation Mode]<br>Enable conversation mode for context-aware responses.<br>Disable for significant reduction in usage fees,<br> but without context awareness.",
+		"conversation_voice_mode_button_tooltip": "[Vice Mode]<br>We will have a conversation using voice.<br>To exit, please press the voice dialogue mode button again.<br>If you want to change the language used in the conversation, please change the language setting in the upper right corner of the screen.",
+		"voice_recording": "Recording..."
+	},
+	"months": {
+		"long": [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December"
+		],
+		"short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+	}
+}
